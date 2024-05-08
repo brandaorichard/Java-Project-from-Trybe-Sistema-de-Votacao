@@ -1,7 +1,13 @@
 package com.betrybe.sistemadevotacao;
 
-public class Pessoa {
-  
-}
+public abstract class Pessoa {
+    protected String nome;
 
-// initial commit
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+}
