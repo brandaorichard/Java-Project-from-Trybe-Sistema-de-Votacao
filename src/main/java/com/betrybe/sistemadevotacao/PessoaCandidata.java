@@ -8,7 +8,7 @@ public class PessoaCandidata extends Pessoa {
   private int votos;
 
   /**
-   * Construtor da classe PessoaCandidata.
+   * Constructor of the PessoaCandidata class.
    *
    * @param nome Person object name
    * @param numero Person object numero
